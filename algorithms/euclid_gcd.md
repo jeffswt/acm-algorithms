@@ -1,5 +1,5 @@
 ---
-title: 欧几里得算法
+title: Euclid 算法
 problems: []
 depends: []
 ---
