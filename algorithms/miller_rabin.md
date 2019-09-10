@@ -1,7 +1,7 @@
 ---
 title: Miller-Rabin 质数判别法
 problems: []
-depends: []
+depends: [fast_exponentiation]
 ---
 
 # Target

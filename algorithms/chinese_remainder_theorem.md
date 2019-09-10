@@ -1,7 +1,7 @@
 ---
 title: 中国剩余定理
 problems: []
-depends: []
+depends: [euclid_gcd]
 ---
 
 # Target
