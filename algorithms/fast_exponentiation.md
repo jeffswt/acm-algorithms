@@ -1,6 +1,7 @@
 ---
 title: 快速幂
 problems: [bzoj1008*, bzoj3142*]
+depends: []
 ---
 
 # Target
@@ -36,7 +37,7 @@ $$
 # Invocation
 
 * `lli fastmul_old(lli a, lli b, lli m)`：用快速幂写法的 $O(\log b)$ 快速乘，计算 $a \cdot b \mod m$。
-* `lli fastmul(lli a, lli b, lli m)`：利用 `long double` 作为中介运算器的快速乘，计算 $a \cdot b \mod m$
+* `lli fastmul(lli a, lli b, lli m)`：利用 `long double` 作为中介运算器的快速乘，计算 $a \cdot b \mod m$。
 * `lli fastpow(lli a, lli b, lli m)`：快速幂，计算 $a^b \mod m$。
 * `lli fastpow_safe(lli a, lli b, lli m)`：适用于模数 $m \geq 2^{31}-1$ 时，为防止溢出，调用了安全的快速乘的快速幂，同样计算 $a^b \mod m$。
 
