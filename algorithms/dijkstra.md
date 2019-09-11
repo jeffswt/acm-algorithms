@@ -37,4 +37,5 @@ depends: []
 * `void add_edge(int u, int v, lli len)`：添加一条 $u \rightarrow v$，长度为 $len$ 的有向边。
 * `void eval(int s)`：以 $s$ 为源点，计算到 $[1, n]$ 所有点的最短路。
 * `int[] get_path(int p)`：获取一个节点编号构成的列表，构成一条 $s$ 到 $p$ 的最短路径。
+* `void init(int n)`：初始化点数为 $n$ 的图。
 

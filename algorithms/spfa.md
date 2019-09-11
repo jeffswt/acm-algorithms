@@ -40,3 +40,4 @@ depends: []
 * `edge[] from`：从源点到点 $i$ 的最短路径上指向 $i$ 的边的地址。
 * `void add_edge(int u, int v, lli len)`：添加一条 $u \rightarrow v$，长度为 $len$ 的有向边。
 * `bool eval(int s)`：以 $s$ 为源点，计算到 $[1, n]$ 所有点的最短路。同时若函数返回 $false$ 则该图包含负权回路，反之则不存在负权回路。
+* `void init(int n)`：初始化点数为 $n$ 的图。
