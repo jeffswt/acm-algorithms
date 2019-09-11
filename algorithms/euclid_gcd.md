@@ -14,13 +14,13 @@ depends: []
 
 # Complexity
 
-* Time:
-  * Worst Case: $O(\log (a + b))$
-  * Amortized: $O(\log (a + b))$
-  * Best Case: $O(1)$
 * Space:
   * Worst Case: $O(1)$
   * Amortized: $O(1)$
+  * Best Case: $O(1)$
+* Time:
+  * Worst Case: $O(\log (a + b))$
+  * Amortized: $O(\log (a + b))$
   * Best Case: $O(1)$
 
 # Solution

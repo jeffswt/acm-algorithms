@@ -22,13 +22,13 @@ $$
 
 # Complexity
 
-* Time:
-  * Worst Case: $O(n \log m_i)$
-  * Amortized: $O(n \log m_i)$
-  * Best Case: $O(n)$
 * Space:
   * Worst Case: $O(n)$
   * Amortized: $O(n)$
+  * Best Case: $O(n)$
+* Time:
+  * Worst Case: $O(n \log m_i)$
+  * Amortized: $O(n \log m_i)$
   * Best Case: $O(n)$
 
 # Solution

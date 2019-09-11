@@ -10,14 +10,14 @@ depends: [fast_exponentiation]
 
 # Complexity
 
-* Time:
-  * Worst Case: $O(k \log^2 n)$
-  * Amortized: $O(k \log^2 n)$
-  * Best Case: $O(k \log^2 n)$
 * Space:
   * Worst Case: $O(k)$
   * Amortized: $O(k)$
   * Best Case: $O(k)$
+* Time:
+  * Worst Case: $O(k \log^2 n)$
+  * Amortized: $O(k \log^2 n)$
+  * Best Case: $O(k \log^2 n)$
 
 # Solution
 

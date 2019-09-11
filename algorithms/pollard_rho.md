@@ -10,14 +10,14 @@ depends: [euclid_gcd, fast_exponentiation]
 
 # Complexity
 
-* Time:
-  * Worst Case: $O(n)$
-  * Amortized: $O(n^\frac{1}{4})$
-  * Best Case: $O(\sqrt{p})$
 * Space:
   * Worst Case: $O(1)$
   * Amortized: $O(1)$
   * Best Case: $O(1)$
+* Time:
+  * Worst Case: $O(n)$
+  * Amortized: $O(n^\frac{1}{4})$
+  * Best Case: $O(\sqrt{p})$
 
 # Solution
 

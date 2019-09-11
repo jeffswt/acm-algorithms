@@ -10,11 +10,11 @@ depends: []
 
 # Complexity
 
-* Time:
+* Space:
   * Worst Case: $O(n)$
   * Amortized: $O(n)$
   * Best Case: $O(n)$
-* Space:
+* Time:
   * Worst Case: $O(n)$
   * Amortized: $O(n)$
   * Best Case: $O(n)$

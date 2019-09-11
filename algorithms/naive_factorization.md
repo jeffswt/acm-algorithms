@@ -10,14 +10,14 @@ depends: [linear_sieve]
 
 # Complexity
 
-* Time:
-  * Worst Case: $O(\frac{\sqrt{n}}{\log \sqrt{n}})$
-  * Amortized: $O(\frac{\sqrt{n}}{\log \sqrt{n}})$
-  * Best Case: $O(\frac{\sqrt{n}}{\log \sqrt{n}})$
 * Space:
   * Worst Case: $O(1)$
   * Amortized: $O(1)$
   * Best Case: $O(1)$
+* Time:
+  * Worst Case: $O(\frac{\sqrt{n}}{\log \sqrt{n}})$
+  * Amortized: $O(\frac{\sqrt{n}}{\log \sqrt{n}})$
+  * Best Case: $O(\frac{\sqrt{n}}{\log \sqrt{n}})$
 
 # Solution
 

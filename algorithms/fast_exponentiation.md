@@ -10,14 +10,14 @@ depends: []
 
 # Complexity
 
-* Time:
-  * Worst Case: $O(\log b)$
-  * Amortized: $O(\log b)$
-  * Best Case: $O(\log b)$
 * Space:
   * Worst Case: $O(1)$
   * Amortized: $O(1)$
   * Best Case: $O(1)$
+* Time:
+  * Worst Case: $O(\log b)$
+  * Amortized: $O(\log b)$
+  * Best Case: $O(\log b)$
 
 # Solution
 
