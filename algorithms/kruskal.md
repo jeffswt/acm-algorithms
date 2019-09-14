@@ -29,7 +29,6 @@ depends: [disjoint_set]
 
 * `int maxn`：点的数量上限。
 * `int maxm`：无向边的数量上限。
-* `lli infinit`：规定的无限远距离。
 * `void add_edge(int u, int v, lli len)`：添加一条 $u \leftrightarrow v$，长度为 $len$ 的无向边。
 * `void join(int u, int v)`：预先连接点 $u$ 和点 $v$。
 * `lli eval()`：计算图 $G$ 的最小生成树的边权之和，在代码中对应位置修改可求得该生成树的构造。

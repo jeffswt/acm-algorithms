@@ -66,7 +66,8 @@ public:
     {
         this->n = n;
         ecnt = 0;
-        memclr(edges);
+        rep(i, 1, n)
+            edges[i] = nullptr;
         return ;
     }
 } graph;

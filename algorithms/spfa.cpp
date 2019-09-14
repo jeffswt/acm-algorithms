@@ -31,7 +31,7 @@ public:
             qcnt[i] = 0;
             inque[i] = false;
             dist[i] = infinit;
-            from[i] = 0;
+            from[i] = nullptr;
         }
         dist[s] = 0;
         qcnt[s] += 1;
@@ -76,7 +76,7 @@ public:
         this->n = n;
         ecnt = 0;
         rep(i, 1, n)
-            edges[i] = 0;
+            edges[i] = nullptr;
         return ;
     }
 } graph;
