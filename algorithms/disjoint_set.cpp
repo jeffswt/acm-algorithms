@@ -27,14 +27,13 @@ public:
         vsm[gq] += vsm[gp];
         return ;
     }
-    void init(int n, lli w[])
+    void init(int n, lli w[] = nullptr)
     {
         rep(i, 1, n) {
             par[i] = i;
             size[i] = 1;
+            vsm[i] = w ? w[i] : 0;
         }
-        rep(i, 1, n)
-            vsm[i] = w[i];
         return ;
     }
 } dsu;
