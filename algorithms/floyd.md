@@ -1,6 +1,6 @@
 ---
 title: Floyd-Warshall 最短路
-problems: []
+problems: [hdu1690]
 depends: []
 ---
 
