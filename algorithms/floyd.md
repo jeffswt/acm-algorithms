@@ -21,7 +21,7 @@ depends: []
 
 # Solution
 
-松弛操作：对于边 $e(i, j) \in E$，$dist_j := min(dist_j, dist_i + len_e)$
+松弛操作：对于边 $e(i, j) \in E$，$dist_{s,j} := min(dist_{s,j}, dist_{s,i} + len_e)$
 
 用边 $(i, k)$, $(k, j)$ 松弛边 $(i, j)$，循环方式从外到内分别为 $k, i, j$。
 
