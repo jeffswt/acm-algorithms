@@ -27,7 +27,7 @@ depends: []
 
 # Solution
 
-记数组 $dfn_i$ 为点 $i$ 被 dfs 到的次序编号（时间戳），$low_i$ 为 $i$ 和 $i$ 的子树能够追溯到的最早的堆栈中的节点的时间戳。维护一个堆栈用于储存要处理的强连通分量。两遍 dfs，第一次标记所有桥，第二次通过桥的标记求出分量。具体做法见代码。
+记数组 $dfn_i$ 为点 $i$ 被 dfs 到的次序编号（时间戳），$low_i$ 为 $i$ 和 $i$ 的子树能够追溯到的最早的堆栈中的节点的时间戳。维护一个堆栈用于储存要处理的连通分量。两遍 dfs，第一次标记所有桥，第二次通过桥的标记求出分量。具体做法见代码。
 
 边双连通图有以下性质：
 
@@ -41,7 +41,8 @@ depends: []
 * `int[] belong`：点 $i$ 属于第 $belong_i$ 个边双连通分量。
 * `int[] bsize`：第 $i$ 个边双连通分量的大小为 $bsize_i$。
 * `edge[] bridges`：所有割边的点对，保证 $u < v$。
-* `void add_edge(int u, int v)`：添加一条 $u \rightarrow v$ 的无向边。
-* `int eval()`：求图 $G$ 边双的连通分量，并返回边双连通分量的个数。
+* `bool edge.is_bridge`：标记该边是否为桥。
+* `void add_edge(int u, int v)`：添加一条 $u \leftrightarrow v$ 的无向边。
+* `int eval()`：求图 $G$ 的边双连通分量，并返回边双连通分量的个数。
 * `void init(int n)`：初始化点数为 $n$ 的图。
 
