@@ -83,7 +83,7 @@ matrix ones(int n, int m = -1)
         m = n;
     matrix mat(n, m);
     rep(i, 0, n - 1)
-        rep(j, 0, n - 1)
+        rep(j, 0, m - 1)
             mat.arr[i][j] = 1;
     return std::move(mat);
 }
