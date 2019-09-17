@@ -7,8 +7,7 @@ public:
         int u, v;
         lli len;
         edge *next;
-    };
-    edge epool[maxm], *edges[maxn], *from[maxn];
+    } epool[maxm], *edges[maxn], *from[maxn];
     int n, ecnt;
     lli dist[maxn];
     bool vis[maxn];

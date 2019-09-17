@@ -7,8 +7,7 @@ public:
         int u, v;
         bool is_bridge;
         edge *next, *rev;
-    };
-    edge epool[maxm], *edges[maxn];
+    } epool[maxm], *edges[maxn];
     int n, ecnt, dcnt, bcnt;
     int dfn[maxn], low[maxn];
     int belong[maxn], bsize[maxn];

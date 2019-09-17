@@ -6,8 +6,7 @@ public:
     {
         int u, v;
         edge *next;
-    };
-    edge epool[maxm], *edges[maxn];
+    } epool[maxm], *edges[maxn];
     int n, ecnt, dcnt, bcnt;
     stack<int> stk;
     int instk[maxn], dfn[maxn], low[maxn];
