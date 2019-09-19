@@ -1,5 +1,5 @@
 ---
-title: Dinic 最大流
+title: SPFA 费用流
 problems: [luogu3381]
 depends: []
 ---
