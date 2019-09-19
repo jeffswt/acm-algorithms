@@ -251,7 +251,8 @@ public:
         this->s = s;
         this->t = t;
         ecnt = 0;
-        memclr(edges, n);
+        rep(i, 1, n)
+            edges[i].clear();
         return ;
     }
 } graph;
